@@ -12,11 +12,11 @@ Extract from csv file into Sqlite DB.
 ./csv_to_sqlite.py {csv_file} [{sqlite_db}] [{table_name}]
 
 ```
-`csv_file` is the path to the csv file and it is required.
+`csv_file` is the path to the csv file . it is required
 
- `sqlite_db` is the path to the sqlite DB, create `sqlite_db` if does not exist.
+ `sqlite_db` is the path to the sqlite DB. it is optional, create `sqlite_db` if does not exist .
 
- `table_name` is the name of table to write to in SQLite file use `data` as default
+ `table_name` is the name of table to write to in SQLite file .it is optional, use `data` as default
 
 
 ## Running the tests
